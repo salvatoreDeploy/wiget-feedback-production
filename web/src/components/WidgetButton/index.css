@@ -1,0 +1,19 @@
+div.container{
+    @apply flex flex-col items-end md:bottom-9 md:right-9
+}
+
+button.button{
+    @apply bg-brand-500 rounded-full px-3 h-12 text-white flex items-center
+}
+
+button.group:hover > .group-hover{
+    @apply max-w-xs
+}
+
+.chatTeardDropsDots{
+    @apply w-6 h-6 
+}
+
+span.spanFeedBack{
+    @apply max-w-0 overflow-hidden transition-all duration-500 ease-linear
+}

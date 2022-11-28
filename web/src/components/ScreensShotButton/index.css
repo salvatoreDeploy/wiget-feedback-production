@@ -1,0 +1,7 @@
+button.screenShotButton {
+  @apply p-1 w-10 h-10 rounded-[4px] border-transparent flex justify-end items-end text-zinc-400;
+}
+
+button.screenShotButton:hover {
+  @apply hover:text-zinc-100 transition-colors;
+}

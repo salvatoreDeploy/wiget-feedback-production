@@ -1,0 +1,15 @@
+header > span.boxFeeback{
+    @apply text-xl leading-6
+}
+
+.selectedFeedBack{
+    @apply flex py-8 gap-2 w-full
+}
+
+button.hover:hover{
+    @apply border-brand-500
+}
+
+button.focus:focus{
+    @apply border-brand-500 outline-none
+}

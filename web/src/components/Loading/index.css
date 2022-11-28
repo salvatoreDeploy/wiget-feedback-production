@@ -1,0 +1,7 @@
+.loadingContent {
+  @apply w-6 h-6 flex items-center justify-center overflow-hidden;
+}
+
+.loading {
+  @apply w-6 h-6 animate-spin text-zinc-100;
+}

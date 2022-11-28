@@ -1,0 +1,15 @@
+button.closeButton {
+  @apply top-5 right-3 absolute text-zinc-400;
+}
+
+button.hover:hover {
+  @apply hover:text-zinc-100;
+}
+
+.iconsX {
+  @apply w-4 h-4;
+}
+
+.selectedFeedBack {
+  @apply flex py-8 gap-2 w-full;
+}
